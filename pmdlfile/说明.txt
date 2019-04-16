@@ -1,0 +1,10 @@
+xiaomo.pmdl  唤醒词 小默  设置在 万博自带的程序中  
+所在文件夹：/home/pi/Desktop/alexa/alexa   
+
+
+_snowboydetect.so  在悟空项目中 所在文件夹为：/home/pi/wukong/wukong-robot/snowboy     
+
+dingdong.pmdl
+dingdongbiechao.pmdl 
+dingdongxing.pmdl  
+在悟空项目中，所在路径  /home/pi/.wukong 
