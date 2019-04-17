@@ -1,0 +1,12 @@
+pi@raspberrypi:~ $ sudo nano /etc/apt/sources.list
+pi@raspberrypi:~ $ sudo nano /etc/apt/sources.list
+Use "fg" to return to nano.
+
+[1]+  Stopped                 sudo nano /etc/apt/sources.list
+pi@raspberrypi:~ $ cd /home/pi/Downloads
+pi@raspberrypi:~/Downloads $ ls
+remarkable_1.87_all.deb
+pi@raspberrypi:~/Downloads $ dpkg -i remarkable_1.87_all.deb
+dpkg: error: requested operation requires superuser privilege
+pi@raspberrypi:~/Downloads $ sudo dpkg -i remarkable_1.87_all.deb              
+dpkg: error: dpkg status database is locked by another process

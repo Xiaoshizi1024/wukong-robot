@@ -1,0 +1,22 @@
+pi@raspberrypi:~ $ cd /home/pi/
+pi@raspberrypi:~ $ ls
+Desktop    Downloads  Music     Public     Videos
+Documents  MagPi      Pictures  Templates
+pi@raspberrypi:~ $ git clone https://github.com/Xiaoshizi1024/wukong-robot.git
+Cloning into 'wukong-robot'...
+remote: Enumerating objects: 1861, done.
+remote: Total 1861 (delta 0), reused 0 (delta 0), pack-reused 1861
+Receiving objects: 100% (1861/1861), 10.32 MiB | 1002.00 KiB/s, done.
+Resolving deltas: 100% (1100/1100), done.
+pi@raspberrypi:~ $ git clone https://github.com/wzpan/wukong-robot.git
+Cloning into 'wukong-robot'...
+remote: Enumerating objects: 1851, done.
+remote: Total 1851 (delta 0), reused 0 (delta 0), pack-reused 1851
+Receiving objects: 100% (1851/1851), 10.27 MiB | 127.00 KiB/s, done.
+Resolving deltas: 100% (1099/1099), done.
+pi@raspberrypi:~ $ sudo apt-get install python-pyaudio python3-pyaudio sox pulseaudio libsox-fmt-all ffmpeg
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+pi@raspberrypi:~ $ sudo apt-get install python-pyaudio python3-pyaudio sox pulseaudio libsox-fmt-all ffmpeg
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
