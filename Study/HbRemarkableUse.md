@@ -3,9 +3,18 @@
 参考资料：  
 https://blog.csdn.net/Mr_try/article/details/78786882     
 
-命令：
-`
+命令;
 
+1. 打开网站下载Linux般的软件 
+- https://remarkableapp.github.io/linux/download.html
+- https://remarkableapp.github.io/files/remarkable_1.87_all.deb
+2. 运行命令：pi@raspberrypi:~/Downloads $ sudo  dpkg -i remarkable_1.87_all.deb
+sudo apt-get update 
+sudo apt-get upgrade
+sudo apt-get install -f  #补足缺失的软件包
+
+--- 
+#补足缺失的软件包
 安装步骤 
 ```  
 pi@raspberrypi:// $ cd 
