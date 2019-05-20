@@ -9,3 +9,5 @@ dingdong.pmdl
 dingdongbiechao.pmdl 
 dingdongxing.pmdl  
 在悟空项目中，所在路径  /home/pi/.wukong 
+
+config.yml  fangzai  .wukong zhong
